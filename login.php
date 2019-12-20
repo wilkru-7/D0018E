@@ -49,10 +49,10 @@ if(isset($_POST['submit'])){
                     header('Location: index.php?page=admin');
                 }
             }else{
-                echo "Invalid Password";
+                echo "Password or username incorrect";
             }
         }else{
-            echo "Invalid Username";
+            echo "Password or username incorrect";
         }
     }
     else {
